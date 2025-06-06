@@ -49,5 +49,5 @@ from loan_applications a
 left join customers b on a.customer_id = b.customer_id
 left join loans c on a.loan_id = c.loan_id 
 order by b.first_name, b.last_name, c.application_date desc
-""")
+""");
 
