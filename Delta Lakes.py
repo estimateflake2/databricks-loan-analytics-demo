@@ -2,11 +2,11 @@
 # MAGIC %run "/Finance Services/Sample Finance Notebook"
 # MAGIC
 
-# COMMAND ----------
+# COMMAND -----------
 
 db_ApplicationDataSet.write.format('delta').mode('overwrite').option('path','abfss://destination@estimateflake.dfs.core.windows.net/newFolder/newData.csv').save()
 
-# COMMAND ----------
+# COMMAND -----------
 
 client_id = dbutils.secrets.get(scope = "josephScope", key = "clientId")
 client_secret = dbutils.secrets.get(scope = "josephScope", key = "clientSecret")
