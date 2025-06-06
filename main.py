@@ -1,16 +1,19 @@
-# This is a sample Python script.
+from math  import *
 
-# Press Ctrl+F5 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+math = sqrt(3)
+subFriends = ["James1","Jordan1","Jacob1"]
+friends = ["James","Jordan","Jacob"]
+friends1 = friends
 
-print ("Hello World")
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press F9 to toggle the breakpoint.
+data = input("test: ")
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+if data == "test":
+    print(subFriends)
+elif data.__contains__("test"):
+    print(friends[0])
+else:
+    print(data)
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+#for friend in friends: print("my friend's name is: "+friend)
