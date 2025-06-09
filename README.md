@@ -6,12 +6,12 @@ This project was built as part of my technical preparation for a Data Engineer i
 
 ## Features
 
-- ✅ Setup and authentication using OAuth between Azure and Databricks
-- ✅ Ingested CSV datasets from ADLS Gen2 into Spark DataFrames
-- ✅ Created and registered temporary views in Databricks
-- ✅ Wrote SQL queries to join customer, loan, and application datasets
-- ✅ Saved output in Delta format
-- ✅ Practiced window functions and grouped aggregations in SQL
+- Setup and authentication using OAuth between Azure and Databricks
+- Ingested CSV datasets from ADLS Gen2 into Spark DataFrames
+- Created and registered temporary views in Databricks
+- Wrote SQL queries to join customer, loan, and application datasets
+- Saved output in Delta format
+- Practiced window functions and grouped aggregations in SQL
 
 ---
 
